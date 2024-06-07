@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimetan - HSR chat emulator</title>
+    <meta property="og:title" content="Slimetan - HSR chat emulator"/>
+    <meta property="og:keywords" content="Slimetan, honkai, honkai star rail,story, post, HSR chat emulator, messages, chat">
+    <meta property="og:description" content="Slimetan - HSR chat emulator"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> 
+    <link rel="stylesheet" href="css/css_core.css">
+    <link rel="stylesheet" href="css/style_hsr_chat.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script> 
+        $(function(){
+            $("#datalist_char").load("_datalist.html"); 
+            $("#myModal").load("_emoji.html"); 
+        });
+        </script>
+
+</head>
+<body>  
+<div id="wrapper">
+    <div id="content">
+        <div class="bg"> 
+            <div class="container-fluid">
+                <div class="messages mx-auto my-5 p-0">
+                    <div class="row">
+                        <div class="col-md-7" id="all-chat">     
+                            <div  id="chat" class="mx-auto border border-dark position-relative"> 
+                                <div id="chat-interior" class="bg-chat">
+                                    <div class="chat-content" id="screen-chatbox">
+                                        <div class="mess skip pl-2 mb-2 pt-2">
+                                            <div id="chat-title" class="chat-title"><div id="chatbox_name">Khung chat - Tên</div></div>
+                                            <div id="subtitle" class="subtitle"><div id="chatbox_status"> Khung chat - Trạng thái</div></div> 
+                                        </div>
+                                        <hr class="mb-3"> 
+                                        <div id="scroll-custom" class="scroll-custom"> 
+                                            <div class="mess position-relative skip"></div>
+                                                
+                                            
+                                        </div>  
+
+                                    </div>
+                                    <hr > 
+                                    <div class="px-4 py-3 typing-area">
+                                        <div class="chat-content"> 
+                                            <div class="input-group mb-3">  
+                                                <div class="btn btn-outline-secondary cursor-nodrop"> 🖼️ </div>
+                                                <input  type="text" class="form-control cursor-nodrop" placeholder="Nhập tin nhắn...">
+                                                <div class="btn btn-outline-secondary cursor-nodrop"> ➤ </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>  
+                        <div class="col-md-5">     
+                            <div id="config" class="px-4 py-3  sticky-item">
+                                <div class="chat-title">Cài Đặt</div> 
+                                <hr class="mb-3"> 
+                                <div class="chat-content">
+                                    <div class="form-group ">
+                                        <div class="mb-3">
+                                            <small><img width="32px" src="images/hsr/icon-chatbox.png"> Khung chat:</small>
+                                            <input type="text" class="form-control" list="characters" placeholder="Tên" id="edit_chatbox_name">
+                                            <input type="text" class="form-control" placeholder="Trạng thái" id="edit_chatbox_status">
+                                            <div id="chatbox_btn" class="btn btn-outline-secondary">Send</div>
+                                        </div>
+                                    </div> 
+                                    <div class="form-group">
+                                        <div class="mb-3">
+                                            <small id="show-multi-rec">
+                                                <img width="32px" id="edit-icon-rec" src="images/hsr/icon-rec.jpg">  Tin nhắn đến:  🞃</small>
+                                            <div class="row">
+                                                <div class="col-md-6"><input type="text" class="form-control" list="characters" placeholder="Nhân vật" id="edit-char-rec"/></div>
+                                                <div class="col-md-6"><input type="text" class="form-control" placeholder="Url Avatar" id="edit-char-rec-avt" /></div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Type message here..." id="edit-char-rec-chat"> 
+                                            
+                                            <div class="btn btn-outline-secondary emoji-btn" data-target="#myModal" data-toggle="modal" id="edit-sticker-rec">Sticker</div>
+                                            <div id="rec_btn" class="btn btn-outline-secondary">Send</div>
+                                            <input type="checkbox" id="edit-char-rec-img"><small>Image</small>
+                                        </div>
+                                    </div> 
+                                    <div id="multi-rec">
+                                        <div class="form-group">
+                                            <div class="mb-3">
+                                                <small><img width="32px" id="edit-icon-rec-2" src="images/hsr/icon-rec.jpg"> Tin nhắn đến (2): </small>
+                                                <div class="row">
+                                                    <div class="col-md-6"><input type="text" class="form-control" list="characters" placeholder="Nhân vật" id="edit-char-rec-2"/></div>
+                                                    <div class="col-md-6"><input type="text" class="form-control" placeholder="Url Avatar" id="edit-char-rec-avt-2" /></div>
+                                                </div> 
+                                                <input type="text" class="form-control" placeholder="Type message here..." id="edit-char-rec-chat-2">
+                                                <div class="btn btn-outline-secondary emoji-btn" data-target="#myModal" data-toggle="modal" id="edit-sticker-rec-2">Sticker</div>
+                                                <div id="rec_btn_2" class="btn btn-outline-secondary">Send</div>
+                                                <input type="checkbox" id="edit-char-rec-img-2"><small>Image</small>
+                                            </div>
+                                        </div>  
+                                        <div class="form-group">
+                                            <div class="mb-3">
+                                                <small><img width="32px" id="edit-icon-rec-3" src="images/hsr/icon-rec.jpg"> Tin nhắn đến (3): </small>
+                                                <div class="row">
+                                                    <div class="col-md-6"><input type="text" class="form-control" list="characters" placeholder="Nhân vật" id="edit-char-rec-3"/></div>
+                                                    <div class="col-md-6"><input type="text" class="form-control" placeholder="Url Avatar" id="edit-char-rec-avt-3" /></div>
+                                                </div> 
+                                                <input type="text" class="form-control" placeholder="Type message here..." id="edit-char-rec-chat-3">
+                                                <div class="btn btn-outline-secondary emoji-btn" data-target="#myModal" data-toggle="modal" id="edit-sticker-rec-3">Sticker</div>
+                                                <div id="rec_btn_3" class="btn btn-outline-secondary">Send</div>
+                                                <input type="checkbox" id="edit-char-rec-img-3"><small>Image</small>
+                                            </div>
+                                        </div> 
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="mb-3">
+                                            <small><img width="32px" id="edit-icon-send" src="images/hsr/icon-send.jpg"> Tin nhắn đi: </small> 
+                                            <div class="row">
+                                                <div class="col-md-6"><input type="text" class="form-control" list="characters" placeholder="Nhân vật" id="edit-char-send"/></div>
+                                                <div class="col-md-6"><input type="text" class="form-control" placeholder="Url Avatar" id="edit-char-send-avt" /></div>
+                                            </div>  
+                                            <input type="text" class="form-control" placeholder="Type message here..." id="edit-char-send-chat">
+                                            <div class="btn btn-outline-secondary emoji-btn" data-target="#myModal" data-toggle="modal" id="edit-sticker-send">Sticker</div>
+                                            <div type="submit" id="send_btn" class="btn btn-outline-secondary">Send</div>
+                                            <input type="checkbox" id="edit-char-send-img"><small>Image</small>
+                                        </div>
+                                    </div> 
+
+                                    <div class="form-group">
+                                        <div class="mb-3">
+                                            <small><img width="32px" src="images/hsr/icon-system-warning.png"> Tin hệ thống:</small>
+                                            <input type="text" class="form-control " placeholder="Type message here..."  id="edit-system-chat">
+                                            <div id="sys_btn" class="btn btn-outline-secondary">Send</div>
+                                        </div>
+                                    </div> 
+
+                                    <hr class="mb-3"> 
+                                
+                                    <div class="buttons">
+                                        <button id="run_chat" class="btn btn-primary"><i class="fas fa-play"></i> Chạy Đoạn Tin Nhắn</button> 
+                                        <button id="toggleScroll-custom"  class="btn btn-primary"><i class="fas fa-th-list"></i> Cuộn Khung Tin Nhắn</button>
+                                        <button id="del_allchat"  class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xoá Toàn Bộ Tin Nhắn</button> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<div class="container">
+    <div class="row"> 
+        <div class="col-md-12 text-center">
+            <a href="https://slimetan.3ktan.com/hsr/post/142-gia-lap-chat-hsr-v1-1-0-beta">Version 1.1.0 beta - last updated Jun 7th, 2024 </a>  <br>
+            <a href="https://slimetan.3ktan.com/hsr/post/141-ra-mat-gia-lap-chat-hsr">Version 1.0.0 - Release Jun 5th, 2024 </a><br>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="myModal"></div>
+<div id="datalist_char"></div>
+
+<footer class="footer">  
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p>Copyright &copy; 2017 Slimetan</p>
+            </div>
+        </div>
+    </div>
+</footer> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/js_core.js"></script> 
+
+<script type="text/javascript" src="js/js_hsr_chat.js"></script> 
+
+
+
+
+</body>
+</html>
