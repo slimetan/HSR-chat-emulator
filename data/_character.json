@@ -1,6 +1,6 @@
 [
     {
-        "name": "Stelle - Destruction",
+        "name": "Stelle",
         "name_note": "Stelle - Destruction",
         "name_vi": "",
         "name_en": "",
@@ -8,7 +8,7 @@
         "status_en": ""
     },
     {
-        "name": "Caelus - Destruction",
+        "name": "Caelus",
         "name_note": "Caelus - Destruction",
         "name_vi": "",
         "name_en": "",
@@ -16,7 +16,7 @@
         "status_en": ""
     },
     {
-        "name": "Stelle - Preservation",
+        "name": "Stelle",
         "name_note": "Stelle - Preservation",
         "name_vi": "",
         "name_en": "",
@@ -24,7 +24,7 @@
         "status_en": ""
     },
     {
-        "name": "Caelus - Preservation",
+        "name": "Caelus",
         "name_note": "Caelus - Preservation",
         "name_vi": "",
         "name_en": "",
@@ -32,7 +32,7 @@
         "status_en": ""
     },
     {
-        "name": "Stelle - Harmony",
+        "name": "Stelle",
         "name_note": "Stelle - Harmony",
         "name_vi": "",
         "name_en": "",
@@ -40,7 +40,7 @@
         "status_en": ""
     },
     {
-        "name": "Caelus - Harmony",
+        "name": "Caelus",
         "name_note": "Caelus - Harmony",
         "name_vi": "",
         "name_en": "",
@@ -160,7 +160,7 @@
         "status_en": "For anything related to the data bank, come find me."
     },
     {
-        "name": "Dan Heng • Imbibitor Lunae",
+        "name": "Dan Heng",
         "name_note": "Dan Heng • Imbibitor Lunae / Ẩm Nguyệt",
         "name_vi": "",
         "name_en": "",
