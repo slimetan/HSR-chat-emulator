@@ -1,0 +1,466 @@
+[
+    {
+        "name": "Stelle - Destruction",
+        "name_note": "Stelle - Destruction",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Caelus - Destruction",
+        "name_note": "Caelus - Destruction",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Stelle - Preservation",
+        "name_note": "Stelle - Preservation",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Caelus - Preservation",
+        "name_note": "Caelus - Preservation",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Stelle - Harmony",
+        "name_note": "Stelle - Harmony",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Caelus - Harmony",
+        "name_note": "Caelus - Harmony",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Pom-pom",
+        "name_note": "Pom-pom",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Hãy tìm tôi để lấy thưởng khai phá!",
+        "data_status_en": "Come to Pom-Pom for Trailblazing rewards!"
+    },
+    {
+        "name": "Anonymous",
+        "name_note": "Anonymous",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Acheron",
+        "name_note": "Acheron",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Argenti",
+        "name_note": "Argenti",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Xin thề với một đóa hồng",
+        "data_status_en": "I swear to a rose"
+    },
+    {
+        "name": "Arlan",
+        "name_note": "Arlan",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Người liên hệ gấp của Peppy",
+        "data_status_en": "Peppy's emergency contact"
+    },
+    {
+        "name": "Asta",
+        "name_note": "Asta",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Tôi không nên mua sắm nữa...",
+        "data_status_en": "I shouldn't buy any more stuff..."
+    },
+    {
+        "name": "Aventurine",
+        "name_note": "Aventurine",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Nhận hỗ trỡj quay gacha dài hạn",
+        "data_status_en": "Always open to pull for your game account"
+    },
+    {
+        "name": "Bailu",
+        "name_note": "Bailu",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Uống nhiều nước ấm, bớt nóng nảy hơn",
+        "data_status_en": "Drink more warm water and get fewer tempers!"
+    },
+    {
+        "name": "Black Swan",
+        "name_note": "Black Swan",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Ký ức là hổ phách mềm mại",
+        "data_status_en": "Memories are soft amber"
+    },
+    {
+        "name": "Blade",
+        "name_note": "Blade",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Boothill",
+        "name_note": "Boothill",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Công vụ tiêu chuẩn của Pier Point (LFG 3/4)",
+        "data_status_en": "Pier Point Standard Heist (LFG 3/4)"
+    },
+    {
+        "name": "Bronya",
+        "name_note": "Bronya",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Đang họp",
+        "data_status_en": "In a meeting"
+    },
+    {
+        "name": "Clara",
+        "name_note": "Clara",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Muốn cùng mọi người đi dã ngoại (>▽<)",
+        "data_status_en": "I want to go to a picnic with everyone (>▽<)"
+    },
+    {
+        "name": "Dan Heng",
+        "name_note": "Dan Heng",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Vấn đề về Kho Lưu Trữ cứ đến tìm tôi!",
+        "data_status_en": "For anything related to the data bank, come find me."
+    },
+    {
+        "name": "Dan Heng • Imbibitor Lunae",
+        "name_note": "Dan Heng • Imbibitor Lunae / Ẩm Nguyệt",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Vấn đề về Kho Lưu Trữ cứ đến tìm tôi!",
+        "data_status_en": "For anything related to the data bank, come find me."
+    },
+    {
+        "name": "Dr. Ratio",
+        "name_note": "Dr. Ratio",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "''Không gấp''",
+        "data_status_en": "''There's no rush.''"
+    },
+    {
+        "name": "Fu Xuan",
+        "name_note": "Fu Xuan",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Không bói việc người hoạ phúc!",
+        "data_status_en": "I do not divine personal fortunes!"
+    },
+    {
+        "name": "Gallagher",
+        "name_note": "Gallagher",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Chú Cún Của Penacony",
+        "data_status_en": "Penaconian Dog"
+    },
+    {
+        "name": "Gepard",
+        "name_note": "Gepard",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Trực ban trả lời hơi chậm, xin thứ lỗi!",
+        "data_status_en": "Working, apologies for the slow response"
+    },
+    {
+        "name": "Guinaifen",
+        "name_note": "Guinaifen",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Không gây sự, không ngại việc, không điên rồ",
+        "data_status_en": ""
+    },
+    {
+        "name": "Hanya",
+        "name_note": "Hanya",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Đang bói mộng, xin đừng làm phiền.",
+        "data_status_en": "Not causing trouble, not fearing trouble, and no crazy challenges"
+    },
+    {
+        "name": "Herta",
+        "name_note": "Herta",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Số này tạm dừng sử dụng | Liên hệ thương vụ: Asta",
+        "data_status_en": "This account is disabled | Business Contact: Asta"
+    },
+    {
+        "name": "Himeko",
+        "name_note": "Himeko",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Có thể không uống nước, nhưng không thể thiếu cafe.",
+        "data_status_en": "I can survive without water, but coffee is my lifeblood"
+    },
+    {
+        "name": "Hook",
+        "name_note": "Hook",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Băng Chuột Chũi! Tập hợp ở Câu Lạc Bộ Đấu Quyền!",
+        "data_status_en": "Moles! Assemble at the Fight Club!"
+    },
+    {
+        "name": "Huohuo",
+        "name_note": "Huohuo",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Người hầu của lão Đuôi",
+        "data_status_en": "Mr. Tail's 'Tail'"
+    },
+    {
+        "name": "Jing Yuan",
+        "name_note": "Jing Yuan",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Tôi không có ở Phủ Thần Sách",
+        "data_status_en": "I'm not at the Seat of Divine Foresight"
+    },
+    {
+        "name": "Jingliu",
+        "name_note": "Jingliu",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Kafka",
+        "name_note": "Kafka",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Luka",
+        "name_note": "Luka",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Không trả lời tức là đang tập luyện!",
+        "data_status_en": "No timely reply means I'm in training."
+    },
+    {
+        "name": "Luocha",
+        "name_note": "Luocha",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Là một thương nhân",
+        "data_status_en": "A simple traveling merchant"
+    },
+    {
+        "name": "Lynx",
+        "name_note": "Lynx",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Người dùng hiện đang ngoài vùng phủ sóng",
+        "data_status_en": "The user you have messaged is currently unavailable"
+    },
+    {
+        "name": "March 7th",
+        "name_note": "March 7th",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Hôm nay cũng là ngày 7 tháng 3!",
+        "data_status_en": "Today is also March 7th~"
+    },
+    {
+        "name": "Misha",
+        "name_note": "Misha",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Cố lên! Sắp được đến thế giới mới rồi",
+        "data_status_en": "Keep it up! The new world is just ahead!"
+    },
+    {
+        "name": "Natasha",
+        "name_note": "Natasha",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Trụ Sở Máy Móc chữa bệnh lưu động, nhớ tận dụng",
+        "data_status_en": "Doing outpatient runs at the Robot Settlement. Check my availability before you visit"
+    },
+    {
+        "name": "Pela",
+        "name_note": "Pela",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Cung cấp tình báo, vui lòng ghi lại họ tên",
+        "data_status_en": "Please include your name when providing information"
+    },
+    {
+        "name": "Qingque",
+        "name_note": "Qingque",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Làm việc cũng được, đừng làm lỡ việc đánh bài",
+        "data_status_en": "Go ahead and work, just don't interrupt my game"
+    },
+    {
+        "name": "Robin",
+        "name_note": "Robin",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Chúng ta hãy cho nhau mượn đôi cánh",
+        "data_status_en": "Let's share our wings with one another."
+    },
+    {
+        "name": "Ruan Mei",
+        "name_note": "Ruan Mei",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Mua... bánh ngọt mới ở đâu nhỉ?",
+        "data_status_en": "Those are new cakes... Where did you get them?"
+    },
+    {
+        "name": "Sampo",
+        "name_note": "Sampo",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Đại lý cổ vật, có nhật ký kiểm nghiệm",
+        "data_status_en": "Certified ancient relic agent"
+    },
+    {
+        "name": "Seele",
+        "name_note": "Seele",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Xin cứ nói thẳng!",
+        "data_status_en": "If you have anything to say, spill it!"
+    },
+    {
+        "name": "Serval",
+        "name_note": "Serval",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Thiếu cảm giác, thiếu cảm hứng",
+        "data_status_en": "Lacking sleep and inspiration"
+    },
+    {
+        "name": "Silver Wolf",
+        "name_note": "Silver Wolf - Sói Bạc",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Không biết làm game thì đừng làm",
+        "data_status_en": "Don't make a game if you don't know how to"
+    },
+    {
+        "name": "Sparkle",
+        "name_note": "Sparkle",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Sushang",
+        "name_note": "Sushang",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Cứ đọc sách thì buồn ngủ là triệu chứng gì?",
+        "data_status_en": "What illness makes you sleepy as soon as you read a book?"
+    },
+    {
+        "name": "Tingyun",
+        "name_note": "Tingyun",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Có gì từ từ nói, đừng cãi nhau~",
+        "data_status_en": "Let's talk it out and not fight~"
+    },
+    {
+        "name": "Topaz",
+        "name_note": "Topaz",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Đi công tác! Mời nhắn tin, việc gấp hẵng gọi",
+        "data_status_en": "Off-site~ Call if important, otherwise text"
+    },
+    {
+        "name": "Welt",
+        "name_note": "Welt",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Các thành viên Đội Tàu Astral, nhớ giữ liên lạc!",
+        "data_status_en": "Everyone on the Express, please constantly keep in touch"
+    },
+    {
+        "name": "Xueyi",
+        "name_note": "Xueyi",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Đang bế quan, đừng làm phiền.",
+        "data_status_en": "In seclusion. Do not disturb."
+    },
+    {
+        "name": "Yanqing",
+        "name_note": "Yanqing",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Sở Công Nghiệp hôm nay có gì mới à? Không có",
+        "data_status_en": "Did the Artisanship Commission have new products today? No"
+    },
+    {
+        "name": "Yukong",
+        "name_note": "Yukong",
+        "name_vi": null,
+        "name_en": null,
+        "status_vi": "Rất muốn quay lại bầu trời một lần nữa...",
+        "data_status_en": "I wish to take to the skies once more..."
+    },
+    {
+        "name": "Firefly",
+        "name_note": "Firefly (Upcoming)",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    },
+    {
+        "name": "Jade",
+        "name_note": "Jade (Upcoming)",
+        "name_vi": "",
+        "name_en": "",
+        "status_vi": "",
+        "data_status_en": ""
+    }
+]
